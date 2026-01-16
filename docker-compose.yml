@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  # MongoDB
+  mongodb:
+    image: mongo:7
+    container_name: jobportal-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: jobportal
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - jobportal-network
+
+  # Redis
+  redis:
+    image: redis:7-alpine
+    container_name: jobportal-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - jobportal-network
+
+  # Backend
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: jobportal-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 8000
+      MONGODB_URI: mongodb://admin:password123@mongodb:27017/jobportal?authSource=admin
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: your-jwt-secret-key-change-this
+      FRONTEND_URL: http://localhost:3000
+      CLOUDINARY_CLOUD_NAME: your-cloud-name
+      CLOUDINARY_API_KEY: your-api-key
+      CLOUDINARY_API_SECRET: your-api-secret
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - jobportal-network
+    volumes:
+      - ./backend/logs:/app/backend/logs
+
+  # Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: jobportal-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - jobportal-network
+
+networks:
+  jobportal-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  redis_data:

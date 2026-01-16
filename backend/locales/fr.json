@@ -1,0 +1,64 @@
+{
+  "common": {
+    "welcome": "Bienvenue",
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "logout": "Se déconnecter",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "apply": "Appliquer",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "auth": {
+    "emailRequired": "L'e-mail est requis",
+    "passwordRequired": "Le mot de passe est requis",
+    "invalidCredentials": "E-mail ou mot de passe invalide",
+    "accountCreated": "Compte créé avec succès",
+    "loginSuccess": "Connexion réussie",
+    "logoutSuccess": "Déconnexion réussie"
+  },
+  "jobs": {
+    "title": "Emplois",
+    "searchJobs": "Rechercher des emplois",
+    "jobDetails": "Détails de l'emploi",
+    "applyNow": "Postuler maintenant",
+    "requirements": "Exigences",
+    "description": "Description",
+    "salary": "Salaire",
+    "location": "Emplacement",
+    "jobType": "Type d'emploi",
+    "experienceLevel": "Niveau d'expérience",
+    "postedDate": "Date de publication",
+    "deadline": "Date limite de candidature"
+  },
+  "applications": {
+    "myApplications": "Mes candidatures",
+    "applicationStatus": "Statut de la candidature",
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "rejected": "Rejeté",
+    "withdraw": "Retirer la candidature"
+  },
+  "profile": {
+    "myProfile": "Mon profil",
+    "editProfile": "Modifier le profil",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "phone": "Numéro de téléphone",
+    "bio": "Biographie",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "education": "Éducation",
+    "resume": "CV",
+    "uploadResume": "Télécharger le CV"
+  }
+}

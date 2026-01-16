@@ -1,0 +1,64 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "apply": "Apply",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "auth": {
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "invalidCredentials": "Invalid email or password",
+    "accountCreated": "Account created successfully",
+    "loginSuccess": "Login successful",
+    "logoutSuccess": "Logged out successfully"
+  },
+  "jobs": {
+    "title": "Jobs",
+    "searchJobs": "Search jobs",
+    "jobDetails": "Job Details",
+    "applyNow": "Apply Now",
+    "requirements": "Requirements",
+    "description": "Description",
+    "salary": "Salary",
+    "location": "Location",
+    "jobType": "Job Type",
+    "experienceLevel": "Experience Level",
+    "postedDate": "Posted Date",
+    "deadline": "Application Deadline"
+  },
+  "applications": {
+    "myApplications": "My Applications",
+    "applicationStatus": "Application Status",
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "withdraw": "Withdraw Application"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "bio": "Bio",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "resume": "Resume",
+    "uploadResume": "Upload Resume"
+  }
+}

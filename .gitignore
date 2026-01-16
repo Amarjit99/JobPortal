@@ -1,0 +1,119 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.next/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+backend/__tests__/
+backend/performance-tests/
+backend/security-tests/
+backend/performance-results/
+frontend/test-results/
+frontend/playwright-report/
+frontend/e2e/
+
+# Development and Documentation Files (not needed in production)
+ACCOUNT_LOCKING_GUIDE.md
+BUG_FIX_SUMMARY.md
+CSRF_TESTING_GUIDE.md
+DATABASE_ER_DIAGRAM.md
+DEPLOYMENT_COMPLETE.md
+EMAIL_FEATURES_SUMMARY.md
+EMAIL_NOTIFICATIONS.md
+FEATURE_CHECKLIST.md
+FRONTEND_BACKEND_INTEGRATION_REPORT.md
+IMPLEMENTATION_PLAN.md
+IMPROVEMENTS.md
+MONITORING_SETUP_GUIDE.md
+OAUTH_IMPLEMENTATION_SUMMARY.md
+PERFORMANCE_MONITORING.md
+PHASE_1_GUIDE.md
+PHASE_5_WEEK_21-22_COMPLETE.md
+PHASE5_DOCUMENTATION.md
+PROJECT_COMPLETE.md
+TESTING_PHASE_COMPLETE.md
+TESTING_STATUS_REPORT.md
+SECURITY_AUDIT_RESULTS.md
+SUMMARY.md
+backend/API_DOCUMENTATION_COMPLETE.md
+backend/CSRF_IMPLEMENTATION.md
+backend/IMPORT_FIXES.md
+backend/SECURITY_TEST_PROGRESS.md
+backend/SECURITY_AUDIT.md
+backend/PERFORMANCE_TESTING_GUIDE.md
+frontend/ACCESSIBILITY_AUDIT.md
+frontend/BROWSER_COMPATIBILITY_RESULTS.md
+frontend/BROWSER_COMPATIBILITY.md
+frontend/CSRF_FRONTEND_IMPLEMENTATION.md
+frontend/CSRF_IMPLEMENTATION_COMPLETE.md
+docs/PHASE5_COMPLETION_SUMMARY.md
+
+# Test files and backups
+test-admin-login.html
+backend/check-admin.js
+backend/clearDB.mjs
+backend/clearUsers.js
+backend/seed-admin.js
+backend/seed-data.js
+backend/test-*.js
+backend/verify-users.js
+*.backup
+*.bak
+
+# Postman Collections (optional - remove if you want to keep)
+*.postman_collection.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database files (if any)
+*.sqlite
+*.sqlite3
+*.db
+
+# Redis dump
+dump.rdb

@@ -1,0 +1,64 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "auth": {
+    "emailRequired": "Se requiere correo electrónico",
+    "passwordRequired": "Se requiere contraseña",
+    "invalidCredentials": "Correo o contraseña inválidos",
+    "accountCreated": "Cuenta creada exitosamente",
+    "loginSuccess": "Inicio de sesión exitoso",
+    "logoutSuccess": "Sesión cerrada exitosamente"
+  },
+  "jobs": {
+    "title": "Empleos",
+    "searchJobs": "Buscar empleos",
+    "jobDetails": "Detalles del empleo",
+    "applyNow": "Aplicar ahora",
+    "requirements": "Requisitos",
+    "description": "Descripción",
+    "salary": "Salario",
+    "location": "Ubicación",
+    "jobType": "Tipo de empleo",
+    "experienceLevel": "Nivel de experiencia",
+    "postedDate": "Fecha de publicación",
+    "deadline": "Fecha límite de aplicación"
+  },
+  "applications": {
+    "myApplications": "Mis aplicaciones",
+    "applicationStatus": "Estado de la aplicación",
+    "pending": "Pendiente",
+    "accepted": "Aceptado",
+    "rejected": "Rechazado",
+    "withdraw": "Retirar aplicación"
+  },
+  "profile": {
+    "myProfile": "Mi perfil",
+    "editProfile": "Editar perfil",
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "bio": "Biografía",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "resume": "Currículum",
+    "uploadResume": "Subir currículum"
+  }
+}

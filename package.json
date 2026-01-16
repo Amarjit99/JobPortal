@@ -1,0 +1,27 @@
+{
+  "name": "jobportal",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Job Portal Application",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express-rate-limit": "^8.2.1",
+    "morgan": "^1.10.1",
+    "natural": "^8.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
